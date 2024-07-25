@@ -1,8 +1,11 @@
 [module]
 [[module.imports]]
   path = 'github.com/LordMathis/hugo-theme-nightfall'
+  
+[[module.imports]]  
+  path = 'github.com/sass/dart-sass-embedded'
 
-baseURL = 'http://hugo-quickstart-template.netlify.com'
+baseURL = 'https://liopol2blog.netlify.app/'
 languageCode = 'en-us'
 title = 'Blog'
 theme = 'nightfall'
