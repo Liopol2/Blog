@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>//localhost:1313/</link>
-    <description>Recent content on </description>
+    <title>Posts on </title>
+    <link>//localhost:1313/posts/</link>
+    <description>Recent content in Posts on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <managingEditor>leonardosoumas3@gmail.com (Liopol2)</managingEditor>
     <webMaster>leonardosoumas3@gmail.com (Liopol2)</webMaster>
     <lastBuildDate>Wed, 24 Jul 2024 19:43:00 -0300</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Windows Optimization</title>
       <link>//localhost:1313/posts/windowsoptimization/windowsoptimization/</link>

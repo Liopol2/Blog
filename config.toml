@@ -1,12 +1,61 @@
 [module]
-[[module.imports]]
-  path = 'github.com/LordMathis/hugo-theme-nightfall'
-  
-[[module.imports]]  
-  path = 'github.com/sass/dart-sass-embedded'
+  [module.hugoVersion]
+    min = "0.114.0"
+  [[module.imports]]
+    path = 'github.com/LordMathis/hugo-theme-nightfall'
+    
+  [[module.imports]]  
+    path = 'github.com/sass/dart-sass-embedded'
 
 baseURL = 'https://liopol2blog.netlify.app/'
 languageCode = 'en-us'
 title = 'Blog'
 theme = 'nightfall'
+
+
+[menu]
+  [[menu.header]]
+    name = "blog"
+    weight = 0
+    url = "posts"
+  [[menu.header]]
+    name = "about"
+    weight = 1
+    url = "about"
+
+[params]
+user = "liopol2"
+hostname = "netlify.io"
+  [params.author]
+    name = "Liopol2"  # Website and RSS feed author
+    email = "leonardosoumas3@gmail.com"  # RSS feed email address
+
+
+readingTime = true  # Show reading time on post page
+published = true  # Show published data on post page
+
+[[params.social]]
+key = 0
+name = "Github"
+url = "https://github.com/Liopol2"
+target = "_blank"
+aria = "GitHub Profile"
+
+[[params.social]]
+key = 1
+name = "Youtube"
+url = "https://www.youtube.com/@liopo9000"
+aria = "Youtube"
+
+[[params.social]]
+key = 2
+name = "LinkedIn"
+url = "https://www.linkedin.com/in/ls1997/"
+aria = "LinkedIn Profile"
+
+[[params.social]]
+key = 3
+name = "Email"
+url = "mailto:leonardosoumas3@gmail.com"
+aria = "My e-Mail Address"
 
